@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="LivePin">
+  <path d="M64 18c-21 0-38 17-38 38 0 25 25 47 38 57 13-10 38-32 38-57 0-21-17-38-38-38Z" fill="#27d58f"/>
+  <path d="M43 58h11l6-13 9 27 7-16h9" fill="none" stroke="#07120c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
