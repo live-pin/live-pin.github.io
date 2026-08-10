@@ -1,0 +1,32 @@
+# LivePin
+
+> LivePin is a Chrome extension for pinning and tracking changing values from websites as persistent browser pins.
+
+Official website: https://live-pin.github.io/
+Chrome Web Store: https://chromewebstore.google.com/detail/livepin/lchhglkgdnlcgeaimoejibamfkmlnkpi
+Source repository: https://github.com/ademisler/LivePin
+Website repository: https://github.com/live-pin/live-pin.github.io
+Version: 0.11.2
+Platform: Google Chrome
+Price: Free
+
+## What LivePin does
+
+LivePin lets a user explicitly select a changing website value such as a number, price, score, count, percentage, statistic or compact status. The value becomes a browser pin in a persistent Chrome Side Panel and can optionally be displayed as a draggable floating pin over other webpages.
+
+LivePin can keep local value history and evaluate user-configured alert conditions. Visual and audio alerts are local. Chrome notifications and webhook alerts are optional.
+
+## Privacy model
+
+LivePin is local-first and does not require a LivePin account or LivePin server. Tracker configuration is stored in Chrome extension storage and local history is stored in extension IndexedDB by default. Chrome Sync is optional. Webhooks are sent only when the user configures a webhook alert and its condition matches.
+
+## Canonical pages
+
+- Home: https://live-pin.github.io/
+- Website value tracker: https://live-pin.github.io/website-value-tracker/
+- Chrome extension overview: https://live-pin.github.io/chrome-extension/
+- How it works: https://live-pin.github.io/how-it-works/
+- Privacy: https://live-pin.github.io/privacy/
+- Support: https://live-pin.github.io/support/
+- Terms: https://live-pin.github.io/terms/
+- Demo: https://live-pin.github.io/demo/

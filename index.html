@@ -1,5 +1,84 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LivePin — Pin live values from the web</title><meta name="description" content="LivePin turns user-selected live values from websites into persistent browser pins with local-first tracking and alerts."><link rel="icon" href="assets/livepin-mark.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/site.css"></head><body>
-<header><nav class="nav"><a class="brand" href="./"><img src="assets/livepin-mark.svg" alt="">LivePin</a><div class="nav-links"><a href="privacy/">Privacy</a><a href="support/">Support</a><a href="terms/">Terms</a></div></nav></header>
-<main><section class="hero"><img src="assets/livepin-mark.svg" alt="LivePin"><p class="eyebrow">Chrome extension</p><h1>Pin live values from anywhere on the web.</h1><p>Select a number, score, price, count, or status once. LivePin keeps it available as a browser pin and refreshes it using the best source it can find.</p><div class="chips"><span class="chip">Local-first</span><span class="chip">No LivePin account</span><span class="chip">Per-pin floating widgets</span><span class="chip">Optional alerts</span></div></section>
-<section class="grid"><article class="card"><strong>Pick any visible value</strong><p>Choose a value directly on a normal webpage and test background compatibility before saving.</p></article><article class="card"><strong>Keep only what matters visible</strong><p>Enable Floating independently for the pins you want and drag them where they belong.</p></article><article class="card"><strong>Know when it changes</strong><p>Use local history and optional visual, sound, notification, or webhook alerts.</p></article></section></main>
-<footer><span>© 2026 LivePin</span><div class="footer-links"><a href="privacy/">Privacy</a><a href="support/">Support</a><a href="terms/">Terms</a></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>LivePin — Website Value Tracker & Live Data Chrome Extension</title>
+  <meta name="description" content="Track changing numbers, prices, scores, counts and stats from websites. LivePin pins live website data in Chrome with local history and optional alerts.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="application-name" content="LivePin">
+  <meta name="author" content="LivePin">
+  <meta name="theme-color" content="#07100b">
+  <link rel="canonical" href="https://live-pin.github.io/">
+  <link rel="sitemap" type="application/xml" href="https://live-pin.github.io/sitemap.xml">
+  <link rel="icon" href="assets/livepin-mark.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LivePin">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="LivePin — Pin & Track Live Website Data">
+  <meta property="og:description" content="A Chrome website value tracker for changing numbers, prices, scores, counts and stats — with persistent pins, history and optional alerts.">
+  <meta property="og:url" content="https://live-pin.github.io/">
+  <meta property="og:image" content="https://live-pin.github.io/assets/og-cover.png">
+  <meta property="og:image:width" content="1400">
+  <meta property="og:image:height" content="560">
+  <meta property="og:image:alt" content="LivePin Chrome extension for pinning and tracking live website data">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LivePin — Pin & Track Live Website Data">
+  <meta name="twitter:description" content="Track changing website values in Chrome without constantly reopening the source page.">
+  <meta name="twitter:image" content="https://live-pin.github.io/assets/og-cover.png">
+  <link rel="stylesheet" href="assets/site.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Organization","@id":"https://live-pin.github.io/#organization","name":"LivePin","url":"https://live-pin.github.io/","logo":"https://live-pin.github.io/assets/livepin-mark.svg","sameAs":["https://github.com/live-pin","https://github.com/ademisler/LivePin","https://chromewebstore.google.com/detail/livepin/lchhglkgdnlcgeaimoejibamfkmlnkpi"]},
+      {"@type":"WebSite","@id":"https://live-pin.github.io/#website","url":"https://live-pin.github.io/","name":"LivePin","description":"Official website for LivePin, a Chrome extension that pins and tracks changing values from websites.","publisher":{"@id":"https://live-pin.github.io/#organization"},"inLanguage":"en"},
+      {"@type":"SoftwareApplication","@id":"https://live-pin.github.io/#software","name":"LivePin — Pin & Track Live Website Data","alternateName":"LivePin","url":"https://live-pin.github.io/","installUrl":"https://chromewebstore.google.com/detail/livepin/lchhglkgdnlcgeaimoejibamfkmlnkpi","description":"A Chrome extension for selecting changing values on websites and keeping them as persistent browser pins with local history and optional alerts.","applicationCategory":"BrowserApplication","operatingSystem":"Google Chrome","softwareVersion":"0.11.2","isAccessibleForFree":true,"featureList":"Website value tracking; persistent browser pins; floating pins; local history; refresh scheduling; optional change alerts; local-first storage","author":{"@id":"https://live-pin.github.io/#organization"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},
+      {"@type":"FAQPage","mainEntity":[
+        {"@type":"Question","name":"What is LivePin?","acceptedAnswer":{"@type":"Answer","text":"LivePin is a Chrome extension that lets you select a changing value on a website and keep that value available as a persistent browser pin."}},
+        {"@type":"Question","name":"What can LivePin track?","acceptedAnswer":{"@type":"Answer","text":"LivePin is designed for user-selected values such as numbers, prices, scores, counts, percentages, statuses and other compact website values that may change over time."}},
+        {"@type":"Question","name":"Does LivePin work on logged-in websites?","acceptedAnswer":{"@type":"Answer","text":"LivePin can use the browser session and site access the user grants, so it can work on many authenticated pages. Some sites can still limit background refresh because of CAPTCHA, content security policies or application-specific behavior."}},
+        {"@type":"Question","name":"Does LivePin upload my tracked values to a LivePin server?","acceptedAnswer":{"@type":"Answer","text":"LivePin is local-first and does not require a LivePin account or LivePin server. Chrome Sync and webhook alerts are optional user-selected features."}}
+      ]}
+    ]
+  }
+  </script>
+</head>
+<body>
+<header><nav class="nav"><a class="brand" href="./"><img src="assets/livepin-mark.svg" alt=""><span>LivePin</span></a><div class="nav-links"><a href="website-value-tracker/">Value tracker</a><a href="how-it-works/">How it works</a><a href="privacy/">Privacy</a><a class="nav-cta" href="https://chromewebstore.google.com/detail/livepin/lchhglkgdnlcgeaimoejibamfkmlnkpi">Chrome Web Store ↗</a></div></nav></header>
+<main>
+<section class="hero">
+  <p class="eyebrow">Website value tracker for Chrome</p>
+  <h1>Track the values that change.<br>Keep them pinned.</h1>
+  <p class="lede">LivePin turns changing website data — numbers, prices, scores, counts, percentages and stats — into persistent browser pins you can check without reopening the source page.</p>
+  <div class="actions"><a class="button primary" href="https://chromewebstore.google.com/detail/livepin/lchhglkgdnlcgeaimoejibamfkmlnkpi">Add LivePin to Chrome</a><a class="button secondary" href="how-it-works/">See how LivePin works</a></div>
+  <div class="trust"><span>Local-first</span><span>No LivePin account</span><span>Per-pin floating widgets</span><span>Optional alerts</span></div>
+  <figure class="product-shot"><img src="assets/livepin-dashboard.png" width="1280" height="800" loading="eager" alt="LivePin Chrome side panel showing tracked website values and refresh controls"></figure>
+</section>
+<section class="section" id="features"><div class="section-head"><p class="section-kicker">One job, done well</p><h2>A live website data tracker that stays in your browser.</h2><p>Select the exact value you care about. LivePin remembers how to read it, refreshes it when possible, keeps local history and can alert you when your rule matches.</p></div><div class="grid">
+  <article class="card"><strong>Pick a visible website value</strong><p>Click a number, price, score, count, percentage or status directly on the page instead of configuring a full-page monitor.</p></article>
+  <article class="card"><strong>Pin it while you browse</strong><p>Keep selected values in the LivePin side panel or enable a draggable floating pin for the values you want visible across pages.</p></article>
+  <article class="card"><strong>React when it changes</strong><p>Use local history and optional visual, sound, Chrome notification or webhook alert rules for meaningful value changes.</p></article>
+</div></section>
+<section class="section"><div class="section-head"><p class="section-kicker">How it works</p><h2>From webpage to persistent pin in three steps.</h2></div><div class="steps">
+  <article class="step"><h3>Open the source page</h3><p>Use LivePin on a normal webpage and start the picker. Site access is requested when you choose to track something there.</p></article>
+  <article class="step"><h3>Select the changing value</h3><p>Click the exact DOM value you want, give it a clear name and choose a refresh interval.</p></article>
+  <article class="step"><h3>Keep watching from anywhere</h3><p>LivePin refreshes the pin using available browser-side sources and shows history, status and alerts in one place.</p></article>
+</div></section>
+<section class="section"><div class="section-head"><p class="section-kicker">Search intent, real use</p><h2>Built for the values people repeatedly check by hand.</h2><p>LivePin is useful when the page matters less than one changing value on it.</p></div><div class="use-links">
+  <a class="use-link" href="website-value-tracker/"><strong>Website value tracker</strong><span>Track specific numbers, prices, counts, percentages and compact statuses instead of monitoring an entire page.</span></a>
+  <a class="use-link" href="chrome-extension/"><strong>Live data Chrome extension</strong><span>Keep website data in a persistent Chrome side panel or floating pin while you work in other tabs.</span></a>
+  <a class="use-link" href="how-it-works/"><strong>Website change alerts</strong><span>Use conditions such as equals, changes, above or below to react to the value itself.</span></a>
+</div></section>
+<section class="section"><div class="section-head"><p class="section-kicker">Privacy by architecture</p><h2>Your pins are local-first.</h2><p>LivePin does not require an account or a LivePin backend. Tracker configuration is stored in Chrome extension storage and history stays in extension IndexedDB by default. Chrome Sync and webhooks are opt-in.</p></div><div class="actions" style="justify-content:flex-start"><a class="button secondary" href="privacy/">Read the Privacy Policy</a></div></section>
+<section class="section"><div class="section-head"><p class="section-kicker">FAQ</p><h2>LivePin in plain language.</h2></div><div class="faq">
+  <details><summary>What is LivePin?</summary><p>A Chrome extension for selecting one changing value from a website and keeping it available as a persistent browser pin.</p></details>
+  <details><summary>What can I track?</summary><p>LivePin is designed for compact changing values such as numbers, prices, scores, counts, percentages, statuses and stats.</p></details>
+  <details><summary>Does it work on logged-in websites?</summary><p>It can work on many authenticated pages using the browser session and permissions you grant. Some sites can still block or complicate background refresh through CAPTCHA, CSP or application-specific behavior.</p></details>
+  <details><summary>Is LivePin a full website change detector?</summary><p>No. LivePin focuses on the exact value you choose. That makes it different from screenshot- or page-diff monitors that watch entire areas or documents.</p></details>
+</div></section>
+<section class="section"><div class="cta"><p class="section-kicker">Stop reopening the same page</p><h2>Pin the value. Keep browsing.</h2><p>Install LivePin from the Chrome Web Store and turn the next value you repeatedly check into a browser pin.</p><div class="actions"><a class="button primary" href="https://chromewebstore.google.com/detail/livepin/lchhglkgdnlcgeaimoejibamfkmlnkpi">Get LivePin for Chrome</a></div></div></section>
+</main>
+<footer><span>© 2026 LivePin</span><div class="footer-links"><a href="website-value-tracker/">Website value tracker</a><a href="chrome-extension/">Chrome extension</a><a href="privacy/">Privacy</a><a href="support/">Support</a><a href="terms/">Terms</a><a href="https://github.com/live-pin">GitHub</a></div></footer>
+</body></html>

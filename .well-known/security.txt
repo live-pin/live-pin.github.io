@@ -1,0 +1,4 @@
+Contact: https://live-pin.github.io/support/
+Canonical: https://live-pin.github.io/.well-known/security.txt
+Expires: 2027-08-10T00:00:00Z
+Preferred-Languages: en
